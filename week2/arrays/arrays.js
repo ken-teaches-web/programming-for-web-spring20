@@ -1,6 +1,6 @@
 // variable but has multiple slots
 const myArr = ['bob', 'betty', 'sue'];
-const myOtherArray = new Array();
+const myOtherArray = new Array(); // eslint-disable-line no-array-constructor
 myOtherArray.push('star wars'); // add items to end
 myOtherArray.push('raiders of the lost ark');
 // myArr.pop(); // removes last item
