@@ -42,7 +42,7 @@ let message = currentQuestion.question;
 
 function setup() {
     createCanvas(800, 600);
-
+    textFont('Luckiest Guy');
     heading = createElement('h1', ['Color Quiz']);
     heading.position(100, 100);
     questionInput = createInput('');
@@ -57,7 +57,9 @@ function draw() {
     background('lightblue');
     fill('purple');
     textSize(24);
+    textFont('Luckiest Guy');
     text(message, 100, 200);
     fill(responseColor);
+    textFont('Anton');
     text(response, 100, 350);
 }
